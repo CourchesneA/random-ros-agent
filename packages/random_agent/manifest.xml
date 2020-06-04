@@ -1,0 +1,13 @@
+<package>
+  <description brief="random_agent">
+
+     random_agent
+
+  </description>
+  <author>root</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/random_agent</url>
+  <depend package="rospy"/>
+
+</package>
