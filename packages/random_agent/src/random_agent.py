@@ -12,7 +12,7 @@ class random_agent(object):
 
         rate = rospy.Rate(15)
         while not rospy.is_shutdown():
-            send_car_command()
+            self.send_car_command()
         
     def send_car_command(self):
         car_control_msg = Twist2DStamped()
