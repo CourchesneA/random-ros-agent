@@ -20,7 +20,6 @@ class random_agent(object):
         car_control_msg.v = 0.5
         car_control_msg.omega = 0.2
 
-        self.logdebug("Sending car command: v: {} omega: {}".format(v, omega))
         self.pub_car_cmd.publish(car_control_msg)
 
 if __name__ == "__main__":
